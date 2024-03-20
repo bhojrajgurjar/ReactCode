@@ -16,8 +16,17 @@ function App() {
         alert('You can not do increament after 20! ');
         document.getElementById.setAttribute("onClick","");
     }
-      counter = counter+1;
-      setCounter(counter);
+      //counter = counter+1;
+      // setCounter(counter+1 );       //increament by 1 only  after 
+      // setCounter(counter+1 );      // all
+      // setCounter(counter+1 );      // this
+      // setCounter(counter+1 );      // code
+      // setCounter((prevCounter)=>prevCounter+1);      //with this code increament done by 4 
+      // setCounter((prevCounter)=>prevCounter+1);
+      // setCounter((prevCounter)=>prevCounter+1);
+      // setCounter(prevCounter=>prevCounter+1);
+
+      setCounter(counter+1);
      }
 
      let decreament = ()=>{
